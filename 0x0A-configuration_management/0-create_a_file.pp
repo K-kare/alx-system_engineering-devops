@@ -1,3 +1,4 @@
+#Create a file
 file { '/tmp/example.txt':
   ensure  => file,
   mode    => '0744',
