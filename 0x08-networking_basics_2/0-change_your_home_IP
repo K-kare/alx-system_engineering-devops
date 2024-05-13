@@ -7,3 +7,4 @@ cp /etc/hosts ~/new.host
 echo "127.0.0.2		localhost" > ~/new.host
 echo "8.8.8.8		facebook.com" >> ~/new.host
 cp -f ~/new.host /etc/hosts
+echo "127.0.0.1         localhost" > /etc/hosts
